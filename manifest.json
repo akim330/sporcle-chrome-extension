@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Sporcle Quiz Helper (My Quiz)",
+    "version": "0.2.0",
+    "description": "When a slot becomes a decoy, show the correct answer and a short Wikipedia intro.",
+    "host_permissions": [
+      "https://www.sporcle.com/*",
+      "https://en.wikipedia.org/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.sporcle.com/games/Andrew-Kim229/civilizations-throughout-history-2/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"],
+        "run_at": "document_idle"
+      }
+    ],
+    "web_accessible_resources": [{
+      "resources": ["styles.css"],
+      "matches": ["https://www.sporcle.com/*"]
+    }]
+  }
+  
