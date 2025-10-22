@@ -22,106 +22,114 @@ const WIKI = {
   const civilizations = {
     "https://i.imgur.com/wr7G45D.png": "Indus Valley Civilization",
     "https://i.imgur.com/p7lYsLc.png": "Egypt, Ancient",
-    "https://i.imgur.com/aTbp7py.png": "Sumer",
-    "https://i.imgur.com/wxXG8bV.png": "Minoan Greece",
+    "https://i.imgur.com/aTbp7yv.png": "Sumer",
+    "https://i.imgur.com/WxXG8Dv.png": "Minoan Greece",
     "https://i.imgur.com/dr57Zm5.png": "Akkadian Empire",
     "https://i.imgur.com/BK8loD3.png": "Elam",
     "https://i.imgur.com/ecr9W4C.png": "Babylonia",
-    "https://i.imgur.com/2DJQ9Sq.png": "Hittite Empire",
-    "https://i.imgur.com/HG3igrm.png": "Assyria",
-    "https://i.imgur.com/HNFoeuo.png": "Phrygia",
+    "https://i.imgur.com/2DJQSqS.png": "Hittite Empire",
+    "https://i.imgur.com/HG3irgm.png": "Assyria",
+    "https://i.imgur.com/HNFOeuo.png": "Phrygia",
     "https://i.imgur.com/ECtoRDG.png": "Mycenaean Greece",
     "https://i.imgur.com/0sximZm.png": "Shang Dynasty",
     "https://i.imgur.com/1RoQvQU.png": "Israel, Kingdom of",
-    "https://i.imgur.com/cNlBqka.png": "Zhou Dynasty",
+    "https://i.imgur.com/cNIBqka.png": "Zhou Dynasty",
     "https://i.imgur.com/WiR9F1G.png": "Kush, Kingdom of",
     "https://i.imgur.com/JZjO9Ws.png": "Saba, Kingdom of",
     "https://i.imgur.com/m8C45Gy.png": "Urartu",
-    "https://i.imgur.com/yfrXW2o.png": "Etruscans",
-    "https://i.imgur.com/g5SrMG8.png": "Persia, Achaemenid",
+    "https://i.imgur.com/yifXW2o.png": "Etruscans",
+    "https://i.imgur.com/gS5rMG8.png": "Persia, Achaemenid",
     "https://i.imgur.com/ypzpHP5.png": "Phoenicia / Carthage",
-    "https://i.imgur.com/2L33WxW.png": "Magadha, Kingdom of",
+    "https://i.imgur.com/2L33WwX.png": "Magadha, Kingdom of",
     "https://i.imgur.com/4Fmy32L.png": "Olmecs",
     "https://i.imgur.com/yic2y6n.png": "Nanda Empire",
     "https://i.imgur.com/rBZQ7EL.png": "Anuradhapura, Kingdom of",
     "https://i.imgur.com/ksLGjN1.png": "Medes, Kingdom of",
-    "https://i.imgur.com/9rtLmj6.png": "Lydia, Kingdom of",
+    "https://i.imgur.com/9trLmj6.png": "Lydia, Kingdom of",
     "https://i.imgur.com/Yldcm01.png": "Bosporus, Kingdom of",
     "https://i.imgur.com/z4wpNrp.png": "Macedonian Empire",
-    "https://i.imgur.com/h6oGLlH.png": "Maurya Empire",
+    "https://i.imgur.com/h6GoLHl.png": "Maurya Empire",
     "https://i.imgur.com/9YD6oh5.png": "Qin Dynasty",
-    "https://i.imgur.com/mEWTjgY.png": "Seleucid Empire",
-    "https://i.imgur.com/pgRIij8.png": "Numidia",
+    "https://i.imgur.com/mEWTjgV.png": "Seleucid Empire",
+    "https://i.imgur.com/pgRIlj8.png": "Numidia",
     "https://i.imgur.com/QV8gHNZ.png": "Parthian Empire",
-    "https://i.imgur.com/YaR1Wx0.png": "Nabatea, Kingdom of",
+    "https://i.imgur.com/YaR1WxO.png": "Nabatea, Kingdom of",
     "https://i.imgur.com/Y3AGEQ3.png": "Kushan Empire",
     "https://i.imgur.com/DnLZVm6.png": "Han Dynasty",
-    "https://i.imgur.com/BZ05Gn0.png": "Funan",
+    "https://i.imgur.com/BZ05GnO.png": "Funan",
     "https://i.imgur.com/kN13X6W.png": "Sasanian Empire",
     "https://i.imgur.com/agGb8MW.png": "Göktürks",
-    "https://i.imgur.com/viIT731.png": "Ghana Empire",
-    "https://i.imgur.com/qqCzsAg.png": "Tarumanagara",
+    "https://i.imgur.com/vTiT731.png": "Ghana Empire",
+    "https://i.imgur.com/qzCzsAg.png": "Tarumanagara",
     "https://i.imgur.com/H0KeJvK.png": "Jin Dynasty",
     "https://i.imgur.com/7usmyoH.png": "Himyar",
     "https://i.imgur.com/cT4GfRM.png": "Hephthalites",
     "https://i.imgur.com/cUkz4Ee.png": "Sui Dynasty",
-    "https://i.imgur.com/TuKaxlF.png": "Tang Dynasty",
+    "https://i.imgur.com/gcH0RPR.png": "Tang Dynasty",
     "https://i.imgur.com/nTtZwKT.png": "Byzantine Empire",
     "https://i.imgur.com/2rtlP4l.png": "Umayyad Caliphate",
     "https://i.imgur.com/YS2ruaa.png": "Khazaria",
     "https://i.imgur.com/7zVanXI.png": "Srivijaya",
-    "https://i.imgur.com/AzfLTtc.png": "Song Dynasty",
-    "https://i.imgur.com/Nu0nnaN.png": "Yuan Dynasty",
+    "https://i.imgur.com/AzfL1Tc.png": "Song Dynasty",
+    "https://i.imgur.com/NuOnnaN.png": "Yuan Dynasty",
     "https://i.imgur.com/VByg1zn.png": "Ming Dynasty",
-    "https://i.imgur.com/i8bU0jh.png": "Qing Dynasty",
-    "https://i.imgur.com/TkJOzi8.png": "Tibetan Empire",
-    "https://i.imgur.com/wbOHllm.png": "Khazar Khaganate",
+    "https://i.imgur.com/ib8Oujh.png": "Qing Dynasty",
+    "https://i.imgur.com/TkJOzI8.png": "Tibetan Empire",
+    "https://i.imgur.com/woHDlIm.png": "Khazar Khaganate",
     "https://i.imgur.com/2sB3mIL.png": "Abbasid Caliphate",
     "https://i.imgur.com/iDmg6Hm.png": "Samanid Empire",
-    "https://i.imgur.com/7ZKCamH.png": "Buyid Dynasty",
+    "https://i.imgur.com/l7CKamH.png": "Buyid Dynasty",
     "https://i.imgur.com/I0QEV9E.png": "Ghaznavid Empire",
-    "https://i.imgur.com/eZd9KfM.png": "Fatimid Caliphate",
+    "https://i.imgur.com/eZ7d9KM.png": "Fatimid Caliphate",
     "https://i.imgur.com/TqAF6tX.png": "Seljuk Dynasty",
     "https://i.imgur.com/2otdPM6.png": "Qara Khitai",
-    "https://i.imgur.com/SXSLWqi.png": "Khwarazm Empire",
-    "https://i.imgur.com/cx9D0Kn.png": "Ayyubid Dynasty",
+    "https://i.imgur.com/SSLWqj8.png": "Khwarazm Empire",
+    "https://i.imgur.com/cX9DoKn.png": "Ayyubid Dynasty",
     "https://i.imgur.com/rNAwMTS.png": "Almohad Caliphate",
     "https://i.imgur.com/n4JSigg.png": "Mali Empire",
-    "https://i.imgur.com/muVafva.png": "Kilwa Sultanate",
+    "https://i.imgur.com/rnUavfa.png": "Kilwa Sultanate",
     "https://i.imgur.com/0xwOwBT.png": "Mamluk Sultanate",
-    "https://i.imgur.com/3lRoQkX.png": "Ottoman Empire",
+    "https://i.imgur.com/3IRoQkX.png": "Ottoman Empire",
     "https://i.imgur.com/b6mPpNw.png": "Safavid Empire",
     "https://i.imgur.com/UexX01C.png": "Songhai Empire",
     "https://i.imgur.com/HpVmAy1.png": "Benin, Kingdom of",
-    "https://i.imgur.com/Eq0blyd.png": "Dahomey, Kingdom of",
-    "https://i.imgur.com/ILlT1Z9.png": "Kanem-Bornu Empire",
+    "https://i.imgur.com/EqObIyd.png": "Dahomey, Kingdom of",
+    "https://i.imgur.com/lLT17Z9.png": "Kanem-Bornu Empire",
     "https://i.imgur.com/zwFDmST.png": "Kongo, Kingdom of",
-    "https://i.imgur.com/nXFywIM.png": "Ethiopian Empire",
-    "https://i.imgur.com/owDsYeB.png": "Delhi Sultanate",
-    "https://i.imgur.com/nsPSfsm.png": "Ilkhanate",
-    "https://i.imgur.com/aCfKfun.png": "Mongol Empire",
+    "https://i.imgur.com/nXFywlM.png": "Ethiopian Empire",
+    "https://i.imgur.com/0wDsYeB.png": "Delhi Sultanate",
+    "https://i.imgur.com/nsSPfsm.png": "Ilkhanate",
+    "https://i.imgur.com/aCfkfun.png": "Mongol Empire",
     "https://i.imgur.com/w79fyhG.png": "Chagatai Khanate",
-    "https://i.imgur.com/fVtwuBM.png": "Golden Horde",
-    "https://i.imgur.com/RGtzuAQ.png": "Timurid Empire",
+    "https://i.imgur.com/fVtwUBM.png": "Golden Horde",
+    "https://i.imgur.com/RGtzuA0.png": "Timurid Empire",
     "https://i.imgur.com/sFfer3Q.png": "Bukhara Khanate",
     "https://i.imgur.com/ycXpKux.png": "Kazakh Khanate",
-    "https://i.imgur.com/md03KT.png": "Mughal Empire",
-    "https://i.imgur.com/Gse5vFL.png": "Dzungar Khanate",
-    "https://i.imgur.com/geUBNC.png": "Roman Empire",
-    "https://i.imgur.com/s3dxrSh.png": "Visigothic Kingdom",
-    "https://i.imgur.com/olv6bs0.png": "Franks, Kingdom of",
+    "https://i.imgur.com/rnd03KT.png": "Mughal Empire",
+    "https://i.imgur.com/Gse5fVL.png": "Dzungar Khanate",
+    "https://i.imgur.com/gesUBNC.png": "Roman Empire",
+    "https://i.imgur.com/s3dxfSh.png": "Visigothic Kingdom",
+    "https://i.imgur.com/oIv6bs0.png": "Franks, Kingdom of",
     "https://i.imgur.com/8PbATiu.png": "Bulgarian Empire",
     "https://i.imgur.com/v5ozyJ2.png": "Holy Roman Empire",
-    "https://i.imgur.com/joycnyt.png": "Kievan Rus",
+    "https://i.imgur.com/jocyntY.png": "Kievan Rus",
     "https://i.imgur.com/bsYDtKQ.png": "Majapahit Empire",
     "https://i.imgur.com/DN6WPLh.png": "Mayan Civilization",
     "https://i.imgur.com/DiiUaF9.png": "Inca Empire",
-    "https://i.imgur.com/kylUZVQ.png": "Aztec Empire",
-    "https://i.imgur.com/7tVoAKY.png": "Teotihuacan",
-    "https://i.imgur.com/aSiucI0.png": "Wari",
+    "https://i.imgur.com/kyIUZVQ.png": "Aztec Empire",
+    "https://i.imgur.com/t7wOAkY.png": "Teotihuacan",
+    "https://i.imgur.com/aSiucIO.png": "Wari",
     "https://i.imgur.com/4wjYZc6.png": "Tiwanaku",
-    "https://i.imgur.com/YtATlxL.png": "Aksum",
-    "https://i.imgur.com/JTDx9lW.png": "Khmer Empire"
+    "https://i.imgur.com/YtATIxL.png": "Aksum",
+    "https://i.imgur.com/JTDx9lW.png": "Khmer Empire",
+    "https://i.imgur.com/Hv5wBgO.png": "Uyghur Khaganate",
+    "https://i.imgur.com/khUxyOJ.png": "Wolof Empire",
+    "https://i.imgur.com/3gIjeeg.png": "Hausa Kingdoms",
+    "https://i.imgur.com/nsBo1Fi.png": "Mutapa Empire",
+    "https://i.imgur.com/bsUrEF9.png": "Makuria",
+    "https://i.imgur.com/0gjH2GK.png": "Alodia",
+    "https://i.imgur.com/mCMwTEH.png": "Nobatia",
+    "https://i.imgur.com/8HCFZr0.png": "Chola Empire"
   };
 
   // Build a quick filename -> civilization map to handle CDN/host variations
@@ -204,6 +212,7 @@ const WIKI = {
     root.style.display = 'none';
     root.innerHTML = `
       <div class="sh-card">
+        <button class="sh-close" type="button" aria-label="Close">×</button>
         <img class="sh-img" alt="Question image" />
         <div class="sh-title"></div>
         <div class="sh-body"></div>
@@ -237,8 +246,56 @@ const WIKI = {
       link.style.display = 'none';
     }
   }
-  function showCard() { $card.style.display = ''; hideOnNextSubmission = true; }
+  function showCard() { $card.style.display = ''; hideOnNextSubmission = false; }
   function hideCard() { $card.style.display = 'none'; hideOnNextSubmission = false; }
+
+  // Close button behavior
+  ;(() => {
+    const closeBtn = $card.querySelector('.sh-close');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', (e) => {
+        try { e.preventDefault(); e.stopPropagation(); } catch {}
+        hideCard();
+      });
+    }
+  })();
+
+  // Ensure interactions inside the card do not bubble to the page and interfere
+  ;(() => {
+    const cardEl = $card.querySelector('.sh-card');
+    if (!cardEl) return;
+    const stop = (e) => { try { e.stopPropagation(); } catch {} };
+    ['click','pointerdown','pointerup','mousedown','mouseup','touchstart','touchend'].forEach(type => {
+      cardEl.addEventListener(type, stop, true);   // capture-phase stopper
+      cardEl.addEventListener(type, stop, false);  // bubble-phase stopper
+    });
+
+    // Make sure the Wikipedia link always opens in a new tab even if the site prevents default
+    const link = $card.querySelector('.sh-link');
+    if (link) {
+      const openNow = () => {
+        try { window.open(link.href, '_blank', 'noopener'); } catch {}
+      };
+      const handleClick = (e) => {
+        try { e.stopPropagation(); } catch {}
+        // Prefer programmatic open to avoid site-level preventDefault
+        openNow();
+        try { e.preventDefault(); } catch {}
+      };
+      link.addEventListener('click', handleClick, true);   // capture
+      link.addEventListener('click', handleClick, false);  // bubble
+      ['pointerdown','pointerup','mousedown','mouseup','touchstart','touchend'].forEach(type => {
+        link.addEventListener(type, (e) => { try { e.stopPropagation(); } catch {} }, true);
+      });
+      link.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          try { e.stopPropagation(); } catch {}
+          openNow();
+          try { e.preventDefault(); } catch {}
+        }
+      });
+    }
+  })();
   
   // -------------------- Wikipedia helpers --------------------
   function normalizeKey(txt){ return (txt||'').trim(); }
@@ -549,7 +606,22 @@ async function fetchWikiIntroBySlug(slug){
   log('replay polling started');
   
   // Freeze the image for THIS submission just before the site handles it
-  function captureBeforeSubmit(trigger){
+  function captureBeforeSubmit(trigger, e){
+    // Ignore interactions inside our helper card (e.g., clicking the Wikipedia link or close button)
+    try {
+      const target = e?.target || null;
+      if (target && $card.contains(target)) {
+        log('captureBeforeSubmit: inside card → ignore');
+        return;
+      }
+      if (e?.type === 'keydown') {
+        const ae = document.activeElement;
+        if (ae && $card.contains(ae)) {
+          log('captureBeforeSubmit: Enter inside card → ignore');
+          return;
+        }
+      }
+    } catch {}
     // lock in whatever is on screen right now
     lastImageSrc = currentImageSrc || lastImageSrc;
     const imgEl = document.querySelector(QUESTION_IMG_SELECTORS);
@@ -560,10 +632,10 @@ async function fetchWikiIntroBySlug(slug){
       attrSrcset: imgEl.getAttribute('srcset')
     } : null;
     log('captureBeforeSubmit', { trigger: trigger || 'unknown', currentImageSrc, lastImageSrc, imgState: state });
-    if (hideOnNextSubmission) hideCard();
+    // Do not auto-hide the helper card on generic clicks/keys; it will be replaced by the next result or closed via the X button.
   }
-  document.addEventListener('pointerdown', () => captureBeforeSubmit('pointerdown'), true); // capture-phase: runs before site handlers
-  document.addEventListener('keydown', e => { if (e.key === 'Enter') captureBeforeSubmit('enter'); }, true);
+  document.addEventListener('pointerdown', (e) => captureBeforeSubmit('pointerdown', e), true); // capture-phase: runs before site handlers
+  document.addEventListener('keydown', e => { if (e.key === 'Enter') captureBeforeSubmit('enter', e); }, true);
   
   // -------------------- Miss handling --------------------
   function onMissElement(el){

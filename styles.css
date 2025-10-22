@@ -8,6 +8,7 @@
   }
   
   #sporcle-helper-card .sh-card {
+    position: relative;
     background: rgba(18, 18, 18, 0.92);
     color: #fff;
     padding: 12px 14px;
@@ -28,4 +29,21 @@
   #sporcle-helper-card .sh-title { font-weight: 600; margin-bottom: 6px; font-size: 14px; }
   #sporcle-helper-card .sh-body  { font-size: 13px; line-height: 1.35; margin-bottom: 8px; }
   #sporcle-helper-card .sh-footer .sh-link { font-size: 12px; text-decoration: underline; color: #aad2ff; }
+
+  #sporcle-helper-card .sh-close {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 4px;
+    background: transparent;
+    color: #bbb;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  #sporcle-helper-card .sh-close:hover { color: #fff; background: rgba(255,255,255,0.08); }
+  #sporcle-helper-card .sh-close:focus { outline: 2px solid #66a3ff; outline-offset: 2px; }
   
