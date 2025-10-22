@@ -13,7 +13,9 @@ const WIKI = {
     "Bosporus, Kingdom of": "Bosporan_Kingdom",
     "Wari": "Wari_Empire",
     "Franks, Kingdom of": "Francia",
-    "Israel, Kingdom of": "Kingdom_of_Israel_(united_monarchy)"
+    "Israel, Kingdom of": "Kingdom_of_Israel_(united_monarchy)",
+    "Xiongnu Empire": "Xiongnu",
+    "Lan Xang Kingdom": "Lan Xang",
 
 
     // "Sui Dynasty": "Sui_dynasty",
@@ -129,7 +131,18 @@ const WIKI = {
     "https://i.imgur.com/bsUrEF9.png": "Makuria",
     "https://i.imgur.com/0gjH2GK.png": "Alodia",
     "https://i.imgur.com/mCMwTEH.png": "Nobatia",
-    "https://i.imgur.com/8HCFZr0.png": "Chola Empire"
+    "https://i.imgur.com/8HCFZr0.png": "Chola Empire",
+    "https://i.imgur.com/po3tmQb.png": "Xiongnu Empire",
+    "https://i.imgur.com/XnXv5zs.png": "Gupta Empire",
+    "https://i.imgur.com/neCj138.png": "Chenla",
+    "https://i.imgur.com/OXUz4gX.png": "Champa",
+    "https://i.imgur.com/ApBth19.png": "Sukhothai Kingdom",
+    "https://i.imgur.com/JJPcpA0.png": "Pagan Kingdom",
+    "https://i.imgur.com/VmQ9KD3.png": "Rashidun Caliphate",
+    "https://i.imgur.com/xhtFUsr.png": "Toltec Empire",
+    "https://i.imgur.com/M43ihGC.png": "Ayutthaya Kingdom",
+    "https://i.imgur.com/sku5dCa.png": "Lan Xang Kingdom", 
+    "https://i.imgur.com/fwM6qNi.png": "Austrian Empire",
   };
 
   // Build a quick filename -> civilization map to handle CDN/host variations
